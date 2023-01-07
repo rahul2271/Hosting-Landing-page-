@@ -10,23 +10,49 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .a{
+            padding-left: 70px;
+            padding-top: 25px;
+        }
+        .b{
+            align-items: center;
+            display: flex;
+            color: gray;
+            padding-top: 40px;
+            padding-left: 50px;
+        }
+        .c{
+            border: 5px;
+        }
+    </style>
 </head>
 <body>
      <!-- nav bar P1 -->
-    <nav>
-        <div>
+    <nav class="nav">
+        <div class="a">
             <img src="/Project-2 Hosting Site/assets/Logo.svg " alt="">
         </div>
-        <div>
-            <ul>
-                <li class="">Hosting</li>
-                <li class="">Domain</li>
-                <li class="">Features</li>
-                <li class="">Support</li>
-                <li class="">Community</li>
+        <div class="c">
+            <ul class="b">
+                <li>Hosting</li>
+                <li>Domain</li>
+                <li>Features</li>
+                <li>Support</li>
+                <li>Community</li>
             </ul>
         </div>
-        <div>
+        <div class="c">
             <button>Login</button>
         </div>
     </nav>
