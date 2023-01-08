@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,24 @@
     <title>Document</title>
 
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
         }
-        .nav{
+
+        .nav {
             display: flex;
             background-color: black;
             text-align: center;
             color: gray;
         }
-        .navimg{
+
+        .navimg {
             padding-top: 30px;
             padding-left: 75px;
         }
-        .navtext{
+
+        .navtext {
             display: flex;
             font-family: sans-serif;
             padding-left: 350px;
@@ -29,19 +33,68 @@
             gap: 20px;
             list-style: none;
         }
-        .navbtn{
+
+        .navbtn {
             padding-left: 400px;
             padding-top: 35px;
         }
-        .btn{
+
+        .btn {
             background-color: rgb(68, 68, 240);
             width: 100px;
             height: 35px;
             color: white;
             border-radius: 20px;
         }
+
+        .btnn {
+            display: flex;
+        }
+        .ls{
+            display: flex;
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+        }
+        .img{
+            margin-left: 300px;
+            margin-top: 80px;
+        }
+        .p1{
+            position: relative;
+            font-size: 65px;
+            text-align: left;
+            
+        }
+        .a{
+            color: blue;
+            font-style: italic;
+            
+        }
+        .left{
+            margin-top: 80px;
+            padding-left: 70px;
+            font-weight: bold;
+        }
+        .p2{
+            color: gray;
+            padding-top: 20px;
+            font-weight: normal;
+        }
+        .btnn{
+            padding-top: 75px;
+            gap: 30px;
+        }
+        .btnn button{
+            background-image: linear-gradient(rgb(116, 116, 247), rgb(73, 73, 249), rgb(33, 33, 253));
+            color: white;
+            border-radius: 60px;
+            height: 50px;
+            width: 140px;
+        }
     </style>
 </head>
+
 <body>
     <!-- nav -->
     <nav class="nav">
@@ -61,5 +114,26 @@
             <button class="btn">Login</button>
         </div>
     </nav>
+    <!-- Left side -->
+    <section class="ls">
+        <div class="left">
+            <p class="p1">The best and <br> <span class="a">cheapest </span>hosting <br> for your website</p>
+            <p class="p2">Hosting your site here is easy, access is fast, server <br> security is very well mainteined, and of
+                course <br> supported by reliable servers.</p>
+            <div class="btnn">
+                <button>Get Started</button>
+                <button>Try Start Free</button>
+            </div>
+        </div>
+        <div class="img">
+            <img src="/Project-2 Hosting Site/assets/Illustrations/Group 238502.svg" alt="dsds">
+        </div>
+    </section>
+    <!-- Right side -->
+    <!-- <div>
+            <img src="/Project-2 Hosting Site/assets/Illustrations/Group 238502.svg" alt="dsds">
+         </div> -->
+    </div>
 </body>
+
 </html>
