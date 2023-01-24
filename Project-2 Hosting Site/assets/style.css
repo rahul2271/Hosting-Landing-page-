@@ -127,8 +127,8 @@ button.b {
     border-style: solid;
     border-color: black;
     border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
 }
 
 .b11 {
@@ -144,7 +144,13 @@ button.b {
 }
 
 .b2 {
-
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    color: white;
 }
 
 .b21 {
@@ -160,7 +166,11 @@ button.b {
 }
 
 .b3 {
-
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
 }
 
 .b31 {
@@ -171,6 +181,13 @@ button.b {
 
 }
 
-.b333 {
+.b33 {
     
+}
+.bb{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    font-family: sans-serif;
+
 }
