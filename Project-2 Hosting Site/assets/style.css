@@ -166,15 +166,17 @@ button.b {
 }
 
 .b3 {
+    position: relative;
     border-style: solid;
     border-color: black;
     border-radius: 10px;
     width: 320px;
     height: 320px;
+    
 }
 
 .b31 {
-
+    padding-left: 50px;
 }
 
 .b32 {
