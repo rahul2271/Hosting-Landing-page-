@@ -132,11 +132,16 @@ button.b {
 }
 
 .b11 {
-
+    padding-left: 115px;
+    padding-top: 20px;
+    height: 75px;
 }
 
 .b12 {
-
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size:x-large
 }
 
 .b13 {
@@ -154,15 +159,21 @@ button.b {
 }
 
 .b21 {
-
+    padding-left: 115px;
+    padding-top: 20px;
+    height: 75px;
 }
 
 .b22 {
-
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size:x-large
 }
 
 .b23 {
-
+    text-align: center;
+    color: rgb(188, 186, 186);
 }
 
 .b3 {
@@ -176,11 +187,16 @@ button.b {
 }
 
 .b31 {
-    padding-left: 50px;
+    padding-left: 115px;
+    padding-top: 20px;
+    height: 75px;
 }
 
 .b32 {
-
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    font-size:x-large
 }
 
 .b33 {
