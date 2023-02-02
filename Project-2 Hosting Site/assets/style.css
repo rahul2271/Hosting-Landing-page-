@@ -120,7 +120,7 @@ button.b {
     color: rgb(146, 146, 146);
     font-family: sans-serif;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 40px;
 }
 
 .b1 {
@@ -145,7 +145,10 @@ button.b {
 }
 
 .b13 {
-
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-size: larger;
+    padding-top: 20px;
 }
 
 .b2 {
@@ -174,6 +177,8 @@ button.b {
 .b23 {
     text-align: center;
     color: rgb(188, 186, 186);
+    font-size: larger;
+    padding-top: 20px;
 }
 
 .b3 {
@@ -200,12 +205,16 @@ button.b {
 }
 
 .b33 {
-    
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-size: larger;
+    padding-top: 20px;
 }
 .bb{
     display: flex;
     gap: 100px;
     margin-left: 200px;
     font-family: sans-serif;
+    padding-top: 70px;
 
 }
