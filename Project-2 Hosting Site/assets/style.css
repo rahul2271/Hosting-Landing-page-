@@ -120,7 +120,8 @@ button.b {
     color: rgb(146, 146, 146);
     font-family: sans-serif;
     text-align: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    /* margin-top: 20px; */
 }
 
 .b1 {
@@ -152,6 +153,7 @@ button.b {
 }
 
 .b2 {
+    margin-top: -50px;
     border-style: solid;
     border-color: black;
     border-radius: 10px;
@@ -217,4 +219,60 @@ button.b {
     font-family: sans-serif;
     padding-top: 70px;
 
+}
+.ccc{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 53px;
+    margin-left: 198px;
+    margin-top: 100px;
+}
+.ddd{
+    margin-left: 195px;
+    font-family: sans-serif;
+}
+.d1{
+    padding-right: 280px;
+    font-size: 30px;
+    width: 550px;
+    height: 75px;
+    background-color: rgb(64, 64, 234);
+    color: white;
+    border-radius: 40px;
+}
+.d2{
+    padding-right: 280px;
+    font-size: 30px;
+    width: 550px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+.d3{
+    padding-right: 280px;
+    font-size: 30px;
+    width: 550px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+.d4{
+    padding-right: 280px;
+    font-size: 30px;
+    width: 550px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+.d5{
+    padding-right: 280px;
+    font-size: 30px;
+    width: 550px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
 }
