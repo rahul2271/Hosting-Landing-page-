@@ -230,8 +230,10 @@ button.b {
 .ddd{
     margin-left: 195px;
     font-family: sans-serif;
+    
 }
 .d1{
+    margin-bottom: 50px;
     padding-right: 280px;
     font-size: 30px;
     width: 550px;
